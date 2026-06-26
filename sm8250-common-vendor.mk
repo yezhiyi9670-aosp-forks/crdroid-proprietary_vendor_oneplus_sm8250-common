@@ -2238,11 +2238,11 @@ PRODUCT_PACKAGES += \
     libvl53l1_daemon \
     libwvhidl \
     libwvdrmengine \
+    sensors.hal.tof \
     libhwdap_v3_6 \
     libswdap_v3_6 \
     vendor.dolby_v3_6.hardware.dms360@2.0-impl \
     vendor.dolby_v3_6.hardware.dms360@2.0 \
-    sensors.hal.tof \
     vendor.oplus.hardware.appradio@1.0 \
     vendor.oplus.hardware.cammidasservice-V1-ndk_platform \
     vendor.oplus.hardware.commondcs-V1-ndk_platform \
@@ -2298,7 +2298,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss@4.0-service.xml \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
     manifest_dax_dolby_v3_6.xml \
-    vendor.dolby_v3_6.hardware.dms360@2.0-service \
     manifest_oplusSensor.xml \
     manifest_oplus_fingerprint.xml \
     vendor.pixelworks.hardware.display.iris-service.xml \
@@ -2370,6 +2369,7 @@ PRODUCT_PACKAGES += \
     tcmd \
     wfdservice \
     android.hardware.drm@1.3-service.widevine \
+    vendor.dolby_v3_6.hardware.dms360@2.0-service \
     vendor.oplus.hardware.biometrics.fingerprint@2.1-service \
     vendor.oplus.hardware.oplusSensor@1.0-service \
     vendor.pixelworks.hardware.feature.irisfeature-service \
